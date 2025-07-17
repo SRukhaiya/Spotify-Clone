@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+   <title>Spotify - Web Player: Music for everyone</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+    <div class="searchtag"> 
+        <div class="spotify">
+        <i class="fa-brands fa-spotify"></i>
+        </div>
+        <div class="home">
+        <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="What do you want to play ?">
+        <div class="arrow">
+        <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        </div>
+        <div class="install">
+            <div class="explore">
+            <button class="hide" href="#">Explore Premium</button>
+            </div>
+            <div class="app">
+            <i class="fa-regular fa-circle-down"></i>
+            <button href="#">Install App</button>
+            </div>
+            <div class="bell">
+               <button> <i class="fa-regular fa-bell"></i></button>
+            </div>
+            <div class="user">
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+     </div>
+     
+    <div class="sidebar">
+      <div class="library">
+         <div class="lib-yourlibrary">
+             <img src="./assets/library_icon.png">
+             <a href="#">Your library</a>
+          </div>
+         <div class="lib-items">
+              <i class="fa-solid fa-plus"></i>
+              <i id="arrow" class="fa-solid fa-arrow-right"></i>          
+            </div>
+       </div>
+
+       <div class="lib-boxes">
+        <div class="box-p1">Create Your First Playlist</div>
+         <div class="box-p2">it's easy , we'll help you</div>
+         <button class="badge">Create Playlist</button>
+       </div>
+
+       <div class="lib-boxes2">
+        <div class="boxes-p1">Let's find some Podcast to follow</div>
+         <div class="boxes-p2">we'll keep you updated on new episodes</div>
+         <button class="badge1">Browse Podcast</button>
+       </div>
+    </div>
+
+  <div class="maincontent">
+      <div class="scrollable">
+        <h3>Recently Played</h3>
+        <div class="card-container">
+           <div class="card">
+               <img src="./assets/card1img.jpeg" class="card-img">
+                <p class="card-title">TOP 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played.. </p>
+               </div>
+        </div>
+
+        <h3>Trending now near you</h3>
+        <div class="card-container">
+            
+            <div class="card">
+               <img src="./assets/card2img.jpeg" class="card-img">
+                <p class="card-title">Mahiye Jinna Sona</p>
+                <p class="card-info">Darshan Raval </p>
+               </div>
+       
+
+            <div class="card">
+               <img src="./assets/card4img.jpeg" class="card-img">
+                <p class="card-title">Naa ready (From "L</p>
+                <p class="card-info">Anirudth Ravichandar Thalapathy vijay ..</p>
+               
+            </div>
+
+        
+            <div class="card">
+               <img src="./assets/card3img.jpeg" class="card-img">
+                <p class="card-title">Pasoori nu (from "s..</p>
+                <p class="card-info">Arjith Singh Rojhak kholi Tulsi kumar </p>
+           </div>
+
+           <div class="card">
+            <img src="./assets/card2img.jpeg" class="card-img">
+             <p class="card-title">Pasoori nu (from "s..</p>
+             <p class="card-info">Arjith Singh Rojhak kholi Tulsi kumar </p>
+          </div>
+
+         <div class="card">
+            <img src="./assets/card3img.jpeg" class="card-img">
+             <p class="card-title">Pasoori nu (from "s..</p>
+             <p class="card-info">Arjith Singh Rojhak kholi Tulsi kumar </p>
+         </div>
+        </div>
+      
+        <h3>Featured Charts</h3>
+        <div class="card-container">
+            
+            <div class="card">
+               <img src="./assets/card5img.jpeg" class="card-img">
+                <p class="card-title">Mahiye Jinna Sona</p>
+                <p class="card-info">Darshan Raval </p>
+            </div>
+            <div class="card">
+                <img src="./assets/card6img.jpeg" class="card-img">
+                 <p class="card-title">Mahiye Jinna Sona</p>
+                 <p class="card-info">Darshan Raval </p>
+            </div>
+            <div class="card">
+                <img src="./assets/card1img.jpeg" class="card-img">
+                 <p class="card-title">Mahiye Jinna Sona</p>
+                 <p class="card-info">Darshan Raval </p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+     </div>
+   </div>
+    <div class="musicplayer">
+        <div class="now-playing">
+            <img src="./assets/ab67616d0000b27395ca6a9b4083a86c149934ae.jpg">
+           <div class="text"> <p class="uppertext">Daylight</p>
+             <p class="lowertext">David Kushner</p>
+            </div>
+           <div class="heart">  <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-minimize"></i>
+           </div>
+
+        </div>
+        <div class="playercontrols">
+            <div class="controls-button">
+                <img src="./assets/player_icon1.png"class="control-button-icon">
+                <img src="./assets/player_icon2.png"class="control-button-icon">
+                <img src="./assets/player_icon3.png"class="control-button-icon1" style="opacity:1">
+                <img src="./assets/player_icon4.png"class="control-button-icon">
+                <img src="./assets/player_icon5.png"class="control-button-icon">
+            </div>
+            <div class="progress">
+                <span class="curr-time">0:00</span>
+                <input type="range" class="progress-time">
+                <span class="tot-time">3:33</span>
+            </div>
+        </div>
+        <div class="systemcontrols">
+            <div class="control-system">
+           <img src="./assets/controls_icon1.png" class="control">
+           <img src="./assets/controld_icon2.png" class="control">
+           <img src="./assets/controls_icon3.png" style="height:1rem;width:1rem;" class="control">
+           <img src="./assets/controls_icon4.png" style="height:1rem;width:1rem;" class="control">
+           <img src="./assets/controls_icon5.png" class="control">
+           <input type="range" class="volume-range" style="border-radius: 100px;">
+
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
+
+<!--  -->
